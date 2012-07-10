@@ -227,7 +227,7 @@ static NSString *accessTokenKey = @"accessToken";
     [checkInForm release];
 }
 
-- (void)sendForm:(SHKFormControllerLargeTextField *)form
+- (void)sendForm:(SHKCustomFormControllerLargeTextField *)form
 {  
  	self.item.text = form.textView.text;
  	[self startCheckInRequest];
